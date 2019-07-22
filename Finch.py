@@ -66,3 +66,9 @@ def main(__bn__):
             break
       except KeyboardInterrupt:
          print; exit()
+         
+  Finch(a)
+
+
+if __name__ == "__main__":
+    main(banner)
