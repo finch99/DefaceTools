@@ -26,5 +26,6 @@ Automatic Deface Tools
 
 
 
-# NOTE : - BEFORE USING THIS TOOL, PUT YOUR SCRIPT DEFACE EKS HTML WITH THE Finch.py .. 
-         - EDIT THE FILE Victim.txt and enter target URL 
+# NOTE :
+- BEFORE USING THIS TOOL, PUT YOUR SCRIPT DEFACE EKS HTML WITH THE Finch.py
+- EDIT THE FILE Victim.txt and enter target URL 
