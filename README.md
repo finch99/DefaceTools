@@ -6,7 +6,7 @@ Automatic Deface Tools
   #Termux 
   - pkg update && pkg upgrade -y
   - pkg install python2 
-  - pkg install requests
+  - pip2 install requests
   - pkg install git 
   - git clone https://github.com/finch99/FinchDeface
   - cd FinchDeface
